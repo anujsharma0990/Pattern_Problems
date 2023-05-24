@@ -37,7 +37,7 @@ Enter the number of rows needed: 5
 
 
 
-c)
+C)
 Input:
 n = int(input("Enter the number of rows needed:  "))
 for i in range(n):
@@ -73,3 +73,44 @@ Enter the number of rows needed:  5
 3 3 3 
 2 2 2 2 
 1 1 1 1 1 
+
+
+
+
+E)
+Input: 
+n = int(input("Enter the number of rows needed: "))
+for i in range(n):
+    for j in range(i, -1, -1):
+        print(n - j, end = " ")
+    print()
+    
+    
+Output:
+Enter the number of rows needed: 5
+5 
+4 5 
+3 4 5 
+2 3 4 5 
+1 2 3 4 5 
+
+
+
+
+F)
+Input:
+n = int(input("Enter the number of rows needed: "))
+for i in range(n):
+    for j in range(i, -1, -1):
+        print(n - j, end = " ")
+    print()
+    
+    
+    
+Output:
+Enter the number of rows needed: 5
+5 
+4 5 
+3 4 5 
+2 3 4 5 
+1 2 3 4 5 
